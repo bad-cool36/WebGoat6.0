@@ -1,0 +1,9 @@
+name: Mannual Call
+run-name: Mannual Call GitHub Actions
+on: workflow_dispatch
+jobs:
+  Print-Message:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Mannual Call Github Actions Successful"
+      - run: ping 192.168.2.27
