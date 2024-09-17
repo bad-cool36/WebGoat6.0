@@ -17,4 +17,4 @@ jobs:
         with:
           ref: WEB-148
       - name: List Github Code Files
-        run: echo "Github Code Files below:"; dir /s;
+        run: dir /s;
