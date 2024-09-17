@@ -15,6 +15,6 @@ jobs:
       - name: Get Github Code Files
         uses: actions/checkout@v4
         with:
-          ref: WEB-148
+          repository: "fortify/sample-eightball"
       - name: List Github Code Files
         run: Get-ChildItem -Recurse;
