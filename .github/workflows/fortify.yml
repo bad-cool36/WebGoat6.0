@@ -57,7 +57,7 @@ jobs:
       #  with:
       #    sast-scan: true
       - name: "fortify scan and upload"
-        run : scancentral -url http://192.168.2.89:8080/scancentral-ctrl start -upload -application "WebGoat6.0" -version "1.0" -uptoken SC_SAST_TOKEN
+        run : scancentral -url http://192.168.2.89:8080/scancentral-ctrl start -upload -application "WebGoat6.0" -version "1.0" -uptoken "MDRlZjA3NDctNTY5OC00OWZjLWI0MjctMjA3ZTg2OGVkM2E2"
         env:
           ### Required configuration when integrating with Fortify on Demand
           #FOD_URL: https://ams.fortify.com
