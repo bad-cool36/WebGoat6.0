@@ -1,9 +1,11 @@
 name: Fortify Scan
-run-name: Mannual Call GitHub Actions
+run-name: Fortify Scan CS
 on: workflow_dispatch
 jobs:
-  Print-Message:
+  Check-Fortify-Components:
     runs-on: self-hosted
     steps:
-      - run: echo "Mannual Call Github Actions Successful"
-      - run: ping 192.168.2.27
+      - run: echo "Check SAST Scan Central"
+      - run: ping 192.168.2.89
+      - run: echo "Check SSC"
+      - run: ping 192.168.2.26
