@@ -17,4 +17,4 @@ jobs:
         with:
           ref: WEB-148
       - name: List Github Code Files
-        run: dir /s;
+        run: Get-ChildItem -Recurse;
